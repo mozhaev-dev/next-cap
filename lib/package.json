@@ -1,0 +1,11 @@
+{
+  "name": "lib",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "bindings": "workspace:*"
+  }
+}

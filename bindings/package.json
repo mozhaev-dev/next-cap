@@ -1,0 +1,18 @@
+{
+  "name": "bindings",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "napi": {
+    "name": "bindings",
+    "triples": {
+      "defaults": true
+    }
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4"
+  },
+  "scripts": {
+    "build": "napi build --platform --release dist",
+    "build:debug": "napi build --platform dist"
+  }
+}
